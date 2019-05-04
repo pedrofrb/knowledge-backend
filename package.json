@@ -4,7 +4,7 @@
   "description": "Just a simple Node JS project to increase my JS skills...",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "pm2 start index.js  --name backend",
     "start": "nodemon"
   },
   "repository": {
