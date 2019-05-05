@@ -1,5 +1,5 @@
 module.exports = app =>{
     
     app.route('/users')
-        .get(app.api.user.save);
+        .post(app.api.user.save);
 }
